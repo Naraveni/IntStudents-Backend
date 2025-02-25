@@ -1,0 +1,9 @@
+#run rubocop --config .rubocop.yml if there settings are not applied.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 400
+Metrics/AbcSize:
+  Enabled: false
